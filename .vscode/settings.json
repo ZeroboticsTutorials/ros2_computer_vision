@@ -1,0 +1,16 @@
+{
+  "editor.formatOnSave": true,
+  "python.autoComplete.extraPaths": [
+    "/opt/ros/jazzy/lib/python3.12/site-packages"
+  ],
+  "python.analysis.extraPaths": ["/opt/ros/jazzy/lib/python3.12/site-packages"],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[python]": {
+    "editor.formatOnType": true,
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "[cpp]": {
+    "editor.formatOnType": true,
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  }
+}
